@@ -33,7 +33,7 @@ include ( MGEMP_PATH . "/inc/base.php" );
 *   =================================================================================================
 */
 include ( MGEMP_PATH . "/inc/libs/class-tgm-plugin-activation.php" );
-add_action( 'tgmpa_register', array( 'MGSP_Base', 'check_plugin_dependencies' ) );
+add_action( 'tgmpa_register', array( 'MGEMP_Base', 'check_plugin_dependencies' ) );
 
 
 
